@@ -1,0 +1,146 @@
+:root{
+  --red: #E50914;
+  --black: #141414;
+}
+
+/* Reset CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Base elements */
+body{
+  background: var(--black);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  margin-left: 5px;
+  color: var(--red);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+}
+
+header nav a{
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color:#FFF;
+}
+
+/* Main Film/Serie */
+.main-film{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('../img/cover-lupin.jpg');
+
+  height: 400px;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-film .description{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.main-film .title{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button{
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.button:hover{
+ background-color: white;
+ color: black; 
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.button i{
+  margin-right: 8px;
+}
+
+.main-film .container{
+  width: 70%;
+}
+
+.film-box{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.films-carousel{
+  margin-top: 5px;
+}
+
+.category{
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Info film */
+
+.info-film{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('../img/cover-lupin2.jpg');
+
+  height: 600px;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info-film .description{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.info-film .title{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info-film .info{
+  color: #AAA;
+}
+
+.info-film .actors{
+  margin-bottom: 40px;
+}
+
+.info-film .curiosity{
+  margin-top: 15px;
+}
