@@ -1,5 +1,5 @@
 :root{
-  --red: #E50914;
+  --red: #ff000d;
   --black: #141414;
 }
 
@@ -27,7 +27,7 @@ header .container{
 header .logo{
   margin-left: 5px;
   color: var(--red);
-  font-family: 'Bebas Neue', Arial;
+  font-family: 'Bebas Neue', 'Arial Black';
   font-size: 40px;
 }
 
