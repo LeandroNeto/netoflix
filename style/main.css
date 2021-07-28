@@ -27,7 +27,7 @@ header .container{
 header .logo{
   margin-left: 5px;
   color: var(--red);
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', Arial;
   font-size: 40px;
 }
 
