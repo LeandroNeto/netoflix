@@ -43,7 +43,7 @@ header nav a:hover{
 /* Main Film/Serie */
 .main-film{
   font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('../img/cover-lupin.jpg');
+  background: linear-gradient(to right, rgba(0,0,0,0.80),rgba(0,0,0,0.75),rgba(0,0,0,0.70),rgba(0,0,0,0.50),rgba(0,0,0,0.10)100%), url('../img/cover-lupin.jpg');
 
   height: 400px;
   background-size: cover;
@@ -108,29 +108,10 @@ header nav a:hover{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Info film */
-
 .info-film{
-  font-size: 16px;
-  background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('../img/cover-lupin2.jpg');
-
-  height: 600px;
+  background: linear-gradient(to right, rgba(0,0,0,0.60),rgba(0,0,0,0.90),rgba(0,0,0,0.80),rgba(0,0,0,0.50),rgba(0,0,0,0.10)100%), url('../img/cover-lupin2.jpg');
+  height: 600px;  
   background-size: cover;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.info-film .description{
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-
-.info-film .title{
-  margin-top: 15%;
-  font-size: 40px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .info-film .info{
@@ -143,4 +124,10 @@ header nav a:hover{
 
 .info-film .curiosity{
   margin-top: 15px;
+}
+
+.age{
+  border: solid 1px;
+  padding: 1px 6px;
+  font-size: 14px; 
 }
